@@ -55,10 +55,11 @@ html, body {
   cursor: pointer;
 }
 #tabuleiro .casa.o {
-  background-position-x: 0; 
+  background-position-x: 0;
+  background-image: url('../images/o.png'); 
 }
 #tabuleiro .casa.x {
-  background-position-x: 96px 
+  background-position-x: 96px
 }
 #tabuleiro .casa:nth-child(3n) {
   border-right: none !important;
